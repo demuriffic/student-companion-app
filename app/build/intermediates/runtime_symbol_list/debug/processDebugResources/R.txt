@@ -3262,6 +3262,7 @@ int id bounceBoth 0x7f080063
 int id bounceEnd 0x7f080064
 int id bounceStart 0x7f080065
 int id bt_addExpenses 0x7f080066
+int id bt_editSavings 0x7f080221
 int id btn_add 0x7f080067
 int id btn_back 0x7f080068
 int id btn_switchToSavingsTracker 0x7f080069
@@ -3957,6 +3958,7 @@ int string character_counter_overflowed_content_description 0x7f0f0030
 int string character_counter_pattern 0x7f0f0031
 int string clear_text_end_icon_content_description 0x7f0f0032
 int string dest_title 0x7f0f0033
+int string edit 0x7f0f00c4
 int string editLabel 0x7f0f0034
 int string error_a11y_label 0x7f0f0035
 int string error_icon_content_description 0x7f0f0036

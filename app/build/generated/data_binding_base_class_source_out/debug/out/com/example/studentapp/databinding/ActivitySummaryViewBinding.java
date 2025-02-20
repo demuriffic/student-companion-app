@@ -4,6 +4,7 @@ package com.example.studentapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
@@ -21,6 +22,9 @@ import java.lang.String;
 public final class ActivitySummaryViewBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
+
+  @NonNull
+  public final Button btEditSavings;
 
   @NonNull
   public final RelativeLayout expensesChartContainer;
@@ -56,13 +60,14 @@ public final class ActivitySummaryViewBinding implements ViewBinding {
   public final TextView tvSavingsLabel;
 
   private ActivitySummaryViewBinding(@NonNull ConstraintLayout rootView,
-      @NonNull RelativeLayout expensesChartContainer, @NonNull LineChart lcExpensesChart,
-      @NonNull LineChart lcSavingsChart, @NonNull ConstraintLayout main,
-      @NonNull RelativeLayout savingsChartContainer, @NonNull ScrollView scrollView,
-      @NonNull TextView tvExpensesSummary, @NonNull TextView tvGreeting,
-      @NonNull TextView tvNetExpenses, @NonNull TextView tvNetSavings,
+      @NonNull Button btEditSavings, @NonNull RelativeLayout expensesChartContainer,
+      @NonNull LineChart lcExpensesChart, @NonNull LineChart lcSavingsChart,
+      @NonNull ConstraintLayout main, @NonNull RelativeLayout savingsChartContainer,
+      @NonNull ScrollView scrollView, @NonNull TextView tvExpensesSummary,
+      @NonNull TextView tvGreeting, @NonNull TextView tvNetExpenses, @NonNull TextView tvNetSavings,
       @NonNull TextView tvSavingsLabel) {
     this.rootView = rootView;
+    this.btEditSavings = btEditSavings;
     this.expensesChartContainer = expensesChartContainer;
     this.lcExpensesChart = lcExpensesChart;
     this.lcSavingsChart = lcSavingsChart;
@@ -103,6 +108,12 @@ public final class ActivitySummaryViewBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.bt_editSavings;
+      Button btEditSavings = ViewBindings.findChildViewById(rootView, id);
+      if (btEditSavings == null) {
+        break missingId;
+      }
+
       id = R.id.expensesChartContainer;
       RelativeLayout expensesChartContainer = ViewBindings.findChildViewById(rootView, id);
       if (expensesChartContainer == null) {
@@ -165,9 +176,9 @@ public final class ActivitySummaryViewBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivitySummaryViewBinding((ConstraintLayout) rootView, expensesChartContainer,
-          lcExpensesChart, lcSavingsChart, main, savingsChartContainer, scrollView,
-          tvExpensesSummary, tvGreeting, tvNetExpenses, tvNetSavings, tvSavingsLabel);
+      return new ActivitySummaryViewBinding((ConstraintLayout) rootView, btEditSavings,
+          expensesChartContainer, lcExpensesChart, lcSavingsChart, main, savingsChartContainer,
+          scrollView, tvExpensesSummary, tvGreeting, tvNetExpenses, tvNetSavings, tvSavingsLabel);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

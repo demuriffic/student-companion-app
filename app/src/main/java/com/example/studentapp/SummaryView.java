@@ -3,6 +3,7 @@ package com.example.studentapp;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -30,6 +31,7 @@ public class SummaryView extends AppCompatActivity {
     TextView tv_netSavings;
     LineChart lc_savingsChart;
     DatabaseHelper databaseHelper;
+    Button bt_editSavings;
     RelativeLayout savingsChartContainer;
     // ewan ko bakit nagkakaerror message so ginawa ko na lang int yung value
     // but yea this is just to set something in a transparent color
@@ -49,14 +51,15 @@ public class SummaryView extends AppCompatActivity {
         tv_savingsLabel = findViewById(R.id.tv_savingsLabel);
         tv_netSavings = findViewById(R.id.tv_netSavings);
         lc_savingsChart = findViewById(R.id.lc_savingsChart);
+        bt_editSavings = findViewById(R.id.bt_editSavings);
         databaseHelper = new DatabaseHelper(this);
         RelativeLayout savingsChartContainer = findViewById(R.id.savingsChartContainer);
 
-        savingsChartContainer.setOnClickListener(v -> {
+        bt_editSavings.setOnClickListener(v -> {
             Intent intent = new Intent(SummaryView.this, SavingsTracker.class);
             startActivity(intent);
         });
-        lc_savingsChart.setOnClickListener(v -> {
+        bt_editSavings.setOnClickListener(v -> {
             Intent intent = new Intent(SummaryView.this, SavingsTracker.class);
             startActivity(intent);
         });
@@ -81,6 +84,7 @@ public class SummaryView extends AppCompatActivity {
 
     private void updateSavingsGraph(List<Entry> savingsEntries) {
         if (savingsEntries == null || savingsEntries.isEmpty()) {
+            bt_editSavings.setText("Add");
             lc_savingsChart.setNoDataText("No record for savings found. Tap to add savings.");
             tv_savingsLabel.setText("A graph of your savings will show up here.");
             tv_netSavings.setText("");
@@ -88,7 +92,7 @@ public class SummaryView extends AppCompatActivity {
             int lineColor = ContextCompat.getColor(this, R.color.chartLineColor);
             int bgColor = ContextCompat.getColor(this, R.color.chartBackground);
             int textColor = ContextCompat.getColor(this, R.color.chartTextColor);
-            tv_savingsLabel.setText("SAVINGS OVERVIEW:\n(Tap the graph below to modify)");
+            tv_savingsLabel.setText("Savings Overview:");
             LineDataSet dataSet = new LineDataSet(savingsEntries, "Savings Over Time");
             dataSet.setColor(lineColor);
             dataSet.setValueTextColor(textColor);

@@ -26,5 +26,6 @@
     <string name="greeting">Hello!</string>
     <string name="savingsOverTime">Savings Over Time:</string>
     <string name="expensesOverTime">Expenses Over Time:</string>
+    <string name="edit">Edit</string>
 
 </resources>

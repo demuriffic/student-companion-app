@@ -3263,6 +3263,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id bt_addExpenses
+id bt_editSavings
 id btn_add
 id btn_back
 id btn_switchToSavingsTracker
@@ -3958,6 +3959,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
 string dest_title
+string edit
 string editLabel
 string error_a11y_label
 string error_icon_content_description

@@ -10,6 +10,7 @@
     <string name="Date">Enter date</string>
     <string name="app_name">StudentApp</string>
     <string name="budgetTracker">Track Your Savings!</string>
+    <string name="edit">Edit</string>
     <string name="editLabel">Edit Entry:</string>
     <string name="expensesOverTime">Expenses Over Time:</string>
     <string name="expensesTracker">Track Your Expenses!</string>
