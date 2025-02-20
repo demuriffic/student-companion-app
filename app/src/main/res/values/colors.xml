@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Mode Colors -->
+    <color name="chartLineColor">#007AFF</color>
+    <color name="chartBackground">#FFFFFF</color>
+    <color name="chartTextColor">#000000</color>
+</resources>

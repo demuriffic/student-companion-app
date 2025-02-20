@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="chartBackground">#121212</color>
+    <color name="chartLineColor">#1E90FF</color>
+    <color name="chartTextColor">#FFFFFF</color>
+    <style name="Base.Theme.StudentApp" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+</resources>

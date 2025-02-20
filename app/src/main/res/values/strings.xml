@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">StudentApp</string>
+    <string name="Date">Enter date</string>
+    <string name="Amount">Enter amount</string>
+    <string name="Add">Add</string>
+    <string name="totalSavings">"Total Savings: "</string>
+    <string name="title_activity_fitness_tracker">fitnessTracker</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="budgetTracker">Track Your Savings!</string>
+    <string name="editLabel">Edit Entry:</string>
+    <string name="newAmount">Enter new amount</string>
+    <string name="newDate">Enter new date</string>
+    <string name="sortByDate">Sort By Date</string>
+    <string name="sortByDate_Earliest">Date: Earliest</string>
+    <string name="sortByDate_Latest">Date: Latest</string>
+    <string name="sortByAmount" />
+    <string name="sortByAmount_Highest">Amount: Highest</string>
+    <string name="sortByAmount_Lowest">Amount: Lowest</string>
+    <string name="interest">Enter interest</string>
+    <string name="expensesTracker">Track Your Expenses!</string>
+    <string name="totalExpenses">"Total Expenses: "</string>
+    <string name="good_evening">Good evening!</string>
+    <string name="good_afternoon">Good afternoon!</string>
+    <string name="good_morning">Good morning!</string>
+    <string name="greeting">Hello!</string>
+    <string name="savingsOverTime">Savings Over Time:</string>
+    <string name="expensesOverTime">Expenses Over Time:</string>
+
+</resources>

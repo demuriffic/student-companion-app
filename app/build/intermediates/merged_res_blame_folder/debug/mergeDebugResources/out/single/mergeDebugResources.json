@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-debug-44:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-main-46:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-debug-44:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-pngs-40:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-debug-44:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-main-46:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-debug-44:\\drawable_baseline_arrow_forward_24.xml.flat",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-main-46:\\drawable\\baseline_arrow_forward_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-debug-44:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-main-46:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-debug-44:\\drawable_baseline_arrow_back_24.xml.flat",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-main-46:\\drawable\\baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-debug-44:\\layout_activity_summary_view.xml.flat",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-main-46:\\layout\\activity_summary_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-debug-44:\\layout_activity_expenses_tracker.xml.flat",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-main-46:\\layout\\activity_expenses_tracker.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-debug-44:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-main-46:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-debug-44:\\layout_activity_savings_tracker.xml.flat",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-main-46:\\layout\\activity_savings_tracker.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-debug-44:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-main-46:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-debug-44:\\layout_activity_modify_savings.xml.flat",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-main-46:\\layout\\activity_modify_savings.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-debug-44:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-main-46:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-debug-44:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-main-46:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-debug-44:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-main-46:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-debug-44:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-main-46:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-debug-44:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-main-46:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-debug-44:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-main-46:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-debug-44:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-main-46:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.studentapp-debug-44:/layout_activity_summary_view.xml.flat",
+        "source": "com.example.studentapp-main-46:/layout/activity_summary_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-debug-44:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-main-46:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-debug-44:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-main-46:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-debug-44:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-main-46:\\mipmap-mdpi\\ic_launcher.webp"
+    }
+]

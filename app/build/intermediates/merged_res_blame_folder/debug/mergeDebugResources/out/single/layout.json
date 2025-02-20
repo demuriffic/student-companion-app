@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-mergeDebugResources-43:\\layout\\activity_summary_view.xml",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-main-46:\\layout\\activity_summary_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-mergeDebugResources-43:\\layout\\activity_expenses_tracker.xml",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-main-46:\\layout\\activity_expenses_tracker.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-mergeDebugResources-43:\\layout\\activity_modify_savings.xml",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-main-46:\\layout\\activity_modify_savings.xml"
+    },
+    {
+        "merged": "com.example.studentapp-mergeDebugResources-43:/layout/activity_summary_view.xml",
+        "source": "com.example.studentapp-main-46:/layout/activity_summary_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-mergeDebugResources-43:\\layout\\activity_savings_tracker.xml",
+        "source": "C:\\Users\\cjrea\\.gradle\\daemon\\8.6\\com.example.studentapp-main-46:\\layout\\activity_savings_tracker.xml"
+    }
+]
